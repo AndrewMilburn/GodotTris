@@ -13,3 +13,6 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Ignore Dev Notes and Videos
+/Notes_and_Videos
