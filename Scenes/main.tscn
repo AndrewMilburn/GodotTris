@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://3df1dbmk5rai"]
+[gd_scene load_steps=2 format=3 uid="uid://3df1dbmk5rai"]
+
+[ext_resource type="Texture2D" uid="uid://bfwoka6l6m7y2" path="res://Assets/Bricks.jpg" id="1_tgyrd"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_tgyrd")
